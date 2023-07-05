@@ -1,0 +1,50 @@
+.main {
+  padding: 10rem 0;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.project_text_content {
+  width: 55.4316rem;
+}
+
+.project_text_content > h2 {
+  margin-bottom: 0.8rem;
+}
+
+.project:nth-child(2),
+.project:nth-child(4),
+.project:nth-child(6) {
+  flex-direction: row-reverse;
+}
+
+.case_study_link{
+  
+}
+
+.platform {
+  background-color: black;
+}
+
+.pebble {
+  height: 3.2rem;
+  font-family: 'pp_neue_medium', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.6rem;
+}
+
+.platform,
+.pebble {
+  border-radius: 2.7rem;
+  display: flex;
+  padding: 0.6rem 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}

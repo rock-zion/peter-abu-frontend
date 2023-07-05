@@ -1,0 +1,27 @@
+.landing_section {
+  background: var(--bg-offwhite-0);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 12.85rem;
+}
+
+.button {
+  border-radius: 0.8rem;
+  padding: 1.4rem 2.8rem;
+  margin-top: 2.4rem;
+  background-color: var(--grey-0);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.6rem;
+  display: flex;
+  width: fit-content;
+}
+
+.button span {
+  margin-right: 1.6rem;
+  line-height: 2rem;
+}
