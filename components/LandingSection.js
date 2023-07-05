@@ -11,7 +11,7 @@ export default function LandingSection() {
           <h2 className='text-my-grey-1'>
             Product designer living in London, United Kingdom.
           </h2>
-          <a href='#highlighted-experience' className={style.button}>
+          <a href='#selected-work' className={style.button}>
             <span> Selected Work</span>
             <Image src={arrowDown} alt='' srcSet='' />
           </a>

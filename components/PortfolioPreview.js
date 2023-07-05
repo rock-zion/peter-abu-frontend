@@ -4,6 +4,7 @@ import style from './styles/portfolio-preview.module.scss';
 import parse from 'html-react-parser';
 import globe from '../public/globe.svg';
 import phone from '../public/phone.svg';
+import arrowRight from '../public/arrow-right.svg';
 
 const urlPrefix = 'https://res.cloudinary.com/dixqgrowr/image/upload';
 const portfolioPreview = [
@@ -90,7 +91,7 @@ const portfolioPreview = [
 
 export default function PortfolioPreview() {
   return (
-    <section className='scroll-area'>
+    <section className='scroll-area' id='selected-work'>
       <div className={`${style.main} main-content`}>
         {portfolioPreview.map((content = {}, idx) => (
           <div className={style.project} key={idx}>
@@ -110,7 +111,8 @@ export default function PortfolioPreview() {
                 ))}
               </div>
               <a className='case-study-link'>
-                <span>Case Study</span> <Image src='' />
+                <span>Case Study</span>{' '}
+                <Image alt='link icon' src={arrowRight} />
               </a>
             </div>
 
