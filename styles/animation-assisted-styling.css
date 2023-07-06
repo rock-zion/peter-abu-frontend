@@ -1,0 +1,17 @@
+.animate-stagger {
+  opacity: 0;
+  transform: translate(0, -20px);
+  filter: blur(4px);
+}
+
+.animate-pebble,
+.animate-portfolio-link {
+  opacity: 0;
+  transform: translate(-20px, 0);
+}
+
+.animate-portfolio-title {
+  opacity: 0;
+  filter: blur(4px);
+  /* transform: translate(-10px, 0); */
+}
