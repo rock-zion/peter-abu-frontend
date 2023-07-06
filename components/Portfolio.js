@@ -40,7 +40,14 @@ export default function Portfolio({ content }) {
           <span>Case Study</span> <Image alt='link icon' src={arrowRight} />
         </a>
       </div>
-      <Image width='500' height='400' src={content.image.url} alt='' />
+      <div className={style.image_container}>
+        <Image
+          className={style.image}
+          fill={true}
+          src={content.image.url}
+          alt=''
+        />
+      </div>
     </div>
   );
 }

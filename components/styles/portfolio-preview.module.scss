@@ -58,3 +58,24 @@
   justify-content: center;
   margin-right: 1rem;
 }
+
+.image_container {
+  width: 55.4316rem;
+
+  @media only screen and (max-width: 780px) {
+    width: 90%;
+    max-width: 640px;
+    margin-bottom: 2rem;
+  }
+}
+
+.image_container > div {
+  position: unset !important;
+}
+
+.image_container > .image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}
