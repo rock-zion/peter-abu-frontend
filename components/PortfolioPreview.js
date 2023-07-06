@@ -7,7 +7,7 @@ const portfolioPreview = [
   {
     platform: 'app',
     title: `
-      <h2 class=""> <strong>Bento - </strong>Better networking and job search for professionals  </h2>
+      <h2 class="animate-portfolio-title"> <strong>Bento - </strong>Better networking and job search for professionals  </h2>
     `,
     roles: [
       { style: 'bg-my-orange text-my-grey-0', title: 'Sole Designer' },
@@ -23,7 +23,7 @@ const portfolioPreview = [
   {
     platform: 'web',
     title: `
-      <h2 class=""> <strong>Clink - </strong>Payment links and aggregation for online vendors & small business</h2>
+      <h2 class="animate-portfolio-title"> <strong>Clink - </strong>Payment links and aggregation for online vendors & small business</h2>
     `,
     roles: [
       { style: 'bg-my-lemon text-my-grey-0', title: 'Co-Designer' },
@@ -39,7 +39,7 @@ const portfolioPreview = [
   {
     platform: 'app',
     title: `
-      <h2 class=""> <strong>SparkSend - </strong>Faster cross-border payments, powered by Crypto rails</h2>
+      <h2 class="animate-portfolio-title"> <strong>SparkSend - </strong>Faster cross-border payments, powered by Crypto rails</h2>
     `,
     roles: [
       { style: 'bg-my-orange text-my-grey-0', title: 'Co-Designer' },
@@ -54,7 +54,7 @@ const portfolioPreview = [
   {
     platform: 'web',
     title: `
-      <h2 class=""> <strong>ShopTopUp Pay -  </strong>SInstant Payment collection for FMCG Vendors</h2>
+      <h2 class="animate-portfolio-title"> <strong>ShopTopUp Pay -  </strong>SInstant Payment collection for FMCG Vendors</h2>
     `,
     roles: [
       { style: 'bg-my-orange text-my-grey-0', title: 'Sole Designer' },
@@ -70,7 +70,7 @@ const portfolioPreview = [
   {
     platform: 'app',
     title: `
-      <h2 class=""> <strong>Facile - </strong>Faster USSD payments for Nigerians</h2>
+      <h2 class="animate-portfolio-title"> <strong>Facile - </strong>Faster USSD payments for Nigerians</h2>
     `,
     roles: [
       { style: 'bg-my-orange text-my-grey-0', title: 'Sole Designer' },
