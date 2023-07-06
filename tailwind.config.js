@@ -23,8 +23,8 @@ module.exports = {
       },
     },
     screens: {
-      sm: { max: '640px' },
-      // => @media (min-width: 640px) { ... }
+      sm: { max: '780px' },
+      // => @media (min-width: 780px) { ... }
     },
   },
   plugins: [],
