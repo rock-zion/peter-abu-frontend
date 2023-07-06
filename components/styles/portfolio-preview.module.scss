@@ -7,10 +7,20 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 4rem;
+
+  @media only screen and (max-width: 640px) {
+    flex-direction: column;
+      margin-bottom: 10rem;
+  }
 }
 
 .project_text_content {
   width: 55.4316rem;
+
+  @media only screen and (max-width: 640px) {
+    width: 39rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .project_text_content > h2 {
@@ -21,10 +31,10 @@
 .project:nth-child(4),
 .project:nth-child(6) {
   flex-direction: row-reverse;
-}
 
-.case_study_link{
-  
+  @media only screen and (max-width: 640px) {
+    flex-direction: column;
+  }
 }
 
 .platform {
