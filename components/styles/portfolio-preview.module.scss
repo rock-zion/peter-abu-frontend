@@ -8,17 +8,18 @@
   justify-content: space-between;
   margin-bottom: 4rem;
 
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 780px) {
     flex-direction: column;
-      margin-bottom: 10rem;
+    margin-bottom: 10rem;
+    align-items: flex-start;
   }
 }
 
 .project_text_content {
   width: 55.4316rem;
-
-  @media only screen and (max-width: 640px) {
-    width: 39rem;
+  @media only screen and (max-width: 780px) {
+    width: 90%;
+    max-width: 640px;
     margin-bottom: 2rem;
   }
 }
@@ -32,7 +33,7 @@
 .project:nth-child(6) {
   flex-direction: row-reverse;
 
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 780px) {
     flex-direction: column;
   }
 }
