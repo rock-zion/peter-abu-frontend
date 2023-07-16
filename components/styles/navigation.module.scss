@@ -1,0 +1,26 @@
+.main {
+  height: 6rem;
+  border-bottom: 1px solid var(--divider);
+}
+
+.image_container {
+  width: 4.735rem;
+  height: 4.8rem;
+}
+
+.main_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlink {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: var(--font-medium);
+
+  & span {
+    margin-right: 0.4rem;
+  }
+}
