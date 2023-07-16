@@ -60,21 +60,21 @@ function useAnimatePortfolio(isVisible) {
       [
         '.animate-portfolio-title',
         isVisible && { opacity: 1, filter: 'blur(0px)' },
-        { duration: 0.7 },
+        { duration: 0.4 },
       ],
     ];
     const pebbleAnimations = [
       [
         '.animate-pebble',
         isVisible && { opacity: 1, transform: 'translateX(0%)' },
-        { duration: 0.7, delay: stagger(0.1) },
+        { duration: 0.4, delay: stagger(0.1) },
       ],
     ];
     const linkAnimation = [
       [
         '.animate-portfolio-link',
         isVisible && { opacity: 1, transform: 'translateX(0%)' },
-        { duration: 0.5 },
+        { duration: 0.2 },
       ],
     ];
     animate([...titleAnimation, ...pebbleAnimations, ...linkAnimation]);
