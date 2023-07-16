@@ -4,6 +4,7 @@ import parse from 'html-react-parser';
 import Image from 'next/image';
 import cylinder from '../public/morphis-cylinder.svg';
 
+export default function HighlightedExperiences({ experiences }) {
   return (
     <section
       className={`${style.main} scroll-area`}
