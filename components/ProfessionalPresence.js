@@ -26,7 +26,7 @@ export default function ProfessionalPresence() {
         <h1 className='text-my-grey-0 profession-presence-children animate-stagger'>
           Professional Presence
         </h1>
-        <ul className='flex profession-presence-children animate-stagger'>
+        <ul className='flex flex-wrap profession-presence-children animate-stagger'>
           {linkArray.map((link, idx) => (
             <li key={idx} className={style.link_wrapper}>
               <a className={`${style.link} text-my-grey-1`} target='_blank'>

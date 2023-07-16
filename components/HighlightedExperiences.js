@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './styles/highlighted-experiences.module.scss';
 import parse from 'html-react-parser';
+import Image from 'next/image';
+import cylinder from '../public/morphis-cylinder.svg';
 
 const experiences = [
   {
@@ -89,6 +91,9 @@ export default function HighlightedExperiences() {
               </div>
             ))}
           </div>
+        </div>
+        <div>
+          <Image src={cylinder} alt='ornamental cylinder' />
         </div>
       </div>
     </section>

@@ -4,6 +4,11 @@
   background: var(--bg-brown);
 }
 
+.main > div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main h1 {
   margin-bottom: 3.2rem;
 
