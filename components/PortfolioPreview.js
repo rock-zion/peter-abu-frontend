@@ -85,11 +85,11 @@ const portfolioPreview = [
   },
 ];
 
-export default function PortfolioPreview() {
+export default function PortfolioPreview({ portfolioPreviews }) {
   return (
     <section className='scroll-area' id='selected-work'>
       <div className={`${style.main} main-content`}>
-        {portfolioPreview.map((content = {}, idx) => (
+        {portfolioPreviews.map((content = {}, idx) => (
           <Portfolio key={idx} content={content} />
         ))}
       </div>
