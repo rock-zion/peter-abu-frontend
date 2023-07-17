@@ -8,12 +8,14 @@ import HighlightedExperiences from '@/components/HighlightedExperiences';
 import ProfessionalPresence from '@/components/ProfessionalPresence';
 
 export default function HomePage({ data }) {
+  console.log('data', data);
   const {
     landingTitle,
     landingSubTitle,
     landingButtonText,
     portfolioPreviews,
     experiences,
+    socials,
   } = data;
   const highlightedExperiencesRef = React.createRef();
   return (
@@ -26,7 +28,7 @@ export default function HomePage({ data }) {
         experiences={experiences}
         ref={highlightedExperiencesRef}
       />
-      <ProfessionalPresence />
+      <ProfessionalPresence socials={socials} />
     </div>
   );
 }
