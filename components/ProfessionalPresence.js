@@ -3,12 +3,6 @@ import style from './styles/professional-presence.module.scss';
 import useStaggerAnimation from '@/lib/useStaggerAnimation';
 import useIntersectionObserver from '@/lib/useIntersectionObserver';
 
-const linkArray = [
-  { title: 'LinkedIn', link: '' },
-  { title: 'Dribbble', link: '' },
-  { title: 'Behance', link: '' },
-  { title: 'Read.cv', link: '' },
-];
 export default function ProfessionalPresence() {
   const professionalPresenceRef = useRef(null);
   const { isVisible } = useIntersectionObserver({
